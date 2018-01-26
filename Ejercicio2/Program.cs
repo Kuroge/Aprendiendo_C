@@ -25,6 +25,7 @@ namespace Ejercicio2
             Console.WriteLine("El valor de bandera es: " + bandera.ToString());
             Console.WriteLine("El valor de fecha es: " + fecha.ToShortDateString());
             Console.ReadKey();
+
         }
     }
 }
