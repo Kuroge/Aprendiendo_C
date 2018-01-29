@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio7
 {
-    class ClasDirecciones
+    public class ClasDirecciones
     {
         public ClasDirecciones()
         {
