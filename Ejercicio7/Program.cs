@@ -10,12 +10,23 @@ namespace Ejercicio7
     {
         static void Main(string[] args)
         {
-            ClasClientesBase cliente = new ClasClientesBase(0, "Adrián García Riera", "001", "HEHM", 1, "Adrián García Riera");
+            ClasClientesConContacto cliente = new ClasClientesConContacto(0, "Adrián García Riera", "001", "HEHM", 1,
+                                                                            "Adrián García Riera", "233333", "", 
+                                                                            "manolo@gmail.com", "Calle Falsa 123", 
+                                                                            "123", "", "La cueva del jaguar", "Ponferrada",
+                                                                            "Chiapas", "15010");
 
-            Console.WriteLine(cliente.Clave + " " + cliente.Nombre);
-            Console.WriteLine(cliente.TipoRegimen);
-            Console.WriteLine(cliente.RFC);
-            Console.ReadKey();
+            ClasDirecciones direcciones = new ClasDirecciones("Calle Falsa 123",
+                                                               "123", "", "La cueva del jaguar",
+                                                               "Ponferrada","Chiapas", "15010");
+            
+
+            ClasClientesConContacto clienteAlternativo = new ClasClientesConContacto(0, "Adrián García Riera", "001", "HEHM", 1,
+                                                                            "Adrián García Riera", "233333", "",
+                                                                            "manolo@gmail.com", direcciones);
+
+            ClasImpresion Impresion = new ClasImpresion();
+            Impresion.ImprimeCliente(clienteAlternativo);
 
         }
     }

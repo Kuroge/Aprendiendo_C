@@ -44,6 +44,9 @@
   <ItemGroup>
     <Compile Include="ClasAbsClientes.cs" />
     <Compile Include="ClasClientesBase.cs" />
+    <Compile Include="ClasClientesConContacto.cs" />
+    <Compile Include="ClasDirecciones.cs" />
+    <Compile Include="ClasImpresion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
