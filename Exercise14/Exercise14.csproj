@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{980F79AC-4BB6-43DD-BB39-BB7E5888A026}</ProjectGuid>
+    <ProjectGuid>{E7323DAE-6734-4754-9397-409A96E5D0AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio13</RootNamespace>
-    <AssemblyName>Ejercicio13</AssemblyName>
+    <RootNamespace>Exercise14</RootNamespace>
+    <AssemblyName>Exercise14</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CtrEjercicio13.cs" />
+    <Compile Include="ClasAbsProductos.cs" />
+    <Compile Include="ClasArchivoProductos.cs" />
+    <Compile Include="ClasProductosBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

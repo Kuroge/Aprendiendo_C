@@ -8,5 +8,13 @@ namespace Ejercicio13
 {
     class CtrEjercicio13
     {
+        public CtrEjercicio13()
+        {
+            _Productos = new List<ClasProductosInventario>();
+        }
+        private List<ClasProductosInventario> Productos;
+
+        public List<ClasProductosInventario> Productos { get; set; }
+
     }
 }
